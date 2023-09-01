@@ -79,7 +79,8 @@ header{
     transition: all cubic-bezier(0.23, 1, 0.320, 1) 0.5s;
 }
 .left img:hover{
-    filter: brightness(1.1);
+    filter: drop-shadow(5px 5px 12px #f93737);
+    -webkit-filter: drop-shadow(5px 5px 12px #f93737);
 }
 .hero{
     font-weight: 700;
